@@ -29,12 +29,12 @@ class FoodRecorder {
     
     func loadData(){
         
-        Foods = [FoodData(name:"Poporn", caloriesPerServing:106, noOfServings:1),
-                 FoodData(name:"Coke", caloriesPerServing:140, noOfServings:1),
-                 FoodData(name:"Potato Chips", caloriesPerServing:152, noOfServings:1),
-                 FoodData(name:"Pizza", caloriesPerServing:200,noOfServings:1),
-                 FoodData(name:"Chocolate", caloriesPerServing:160, noOfServings:1),
-                 FoodData(name:"Sandwich", caloriesPerServing:85, noOfServings:1)]
+        Foods = [FoodData(name:"Poporn", caloriesPerServing:106.2, noOfServings:1),
+                 FoodData(name:"Coke", caloriesPerServing:140.0, noOfServings:1),
+                 FoodData(name:"Potato Chips", caloriesPerServing:152.6, noOfServings:1),
+                 FoodData(name:"Pizza", caloriesPerServing:200.9,noOfServings:1),
+                 FoodData(name:"Chocolate", caloriesPerServing:160.0, noOfServings:1),
+                 FoodData(name:"Sandwich", caloriesPerServing:85.1, noOfServings:1)]
         }
     
     func increaseTally(forItem i : Int){
